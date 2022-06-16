@@ -52,32 +52,32 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.grey[850],
       body: Center(
         child: Container(
           child: Image.asset(
             'images/icons8-instagram-250.png',
             height: 80,
-            color: Colors.grey[700],
+            color: Colors.white,
           ),
           padding: const EdgeInsets.all(30),
           decoration: BoxDecoration(
-            color: Colors.grey[300],
+            color: Colors.grey[850],
             //borderRadius: BorderRadius.circular(12),
             shape: BoxShape.circle,
             boxShadow: [
               //bottom right shadow is darker
               BoxShadow(
-                color: Colors.grey.shade500,
-                offset: const Offset(4, 4),
+                color: Colors.grey.shade900,
+                offset: const Offset(5, 5),
                 blurRadius: 15,
                 spreadRadius: 1,
               ),
 
               //top left shadow is lighter
-              const BoxShadow(
-                color: Colors.white,
-                offset: Offset(-4, -4),
+              BoxShadow(
+                color: Colors.grey.shade800,
+                offset: const Offset(-5, -5),
                 blurRadius: 15,
                 spreadRadius: 1,
               ),
