@@ -57,7 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Container(
           child: Image.asset(
             'images/icons8-instagram-250.png',
-            height: 80,
+            height: 100,
             color: Colors.white,
           ),
           padding: const EdgeInsets.all(50),
