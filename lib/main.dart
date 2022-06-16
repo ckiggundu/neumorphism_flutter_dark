@@ -60,11 +60,11 @@ class _MyHomePageState extends State<MyHomePage> {
             height: 80,
             color: Colors.white,
           ),
-          padding: const EdgeInsets.all(30),
+          padding: const EdgeInsets.all(50),
           decoration: BoxDecoration(
             color: Colors.grey[850],
-            //borderRadius: BorderRadius.circular(12),
-            shape: BoxShape.circle,
+            borderRadius: BorderRadius.circular(200),
+            //shape: BoxShape.circle,
             boxShadow: [
               //bottom right shadow is darker
               BoxShadow(
