@@ -88,5 +88,5 @@ return Scaffold(
 
 ## Screenshots
 
-[![Screenshot-2022-06-16-153528.png](https://i.postimg.cc/Qt1J4dWW/Screenshot-2022-06-16-153528.png)](https://postimg.cc/KkcT4FfZ)
+[![Screenshot-2022-06-16-194828.png](https://i.postimg.cc/3wDBHx7j/Screenshot-2022-06-16-194828.png)](https://postimg.cc/p9R8fxmy)
 
