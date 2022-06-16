@@ -36,7 +36,7 @@ Start the device emulator
 ```dart
 return Scaffold(
     // make the background color grey
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.grey[850],
 
       // place everything in a body and center it
       body: Center(
@@ -54,7 +54,7 @@ return Scaffold(
 
           //create the shape
           decoration: BoxDecoration(
-            color: Colors.grey[300],
+            color: Colors.grey[850],
 
             // rectangle with rounded edges
             //borderRadius: BorderRadius.circular(12),
@@ -66,16 +66,16 @@ return Scaffold(
                 
               //bottom right shadow is darker
               BoxShadow(
-                color: Colors.grey.shade500,
-                offset: const Offset(4, 4),
+                color: Colors.grey.shade900,
+                offset: const Offset(5, 5),
                 blurRadius: 15,
                 spreadRadius: 1,
               ),
 
               //top left shadow is lighter
-              const BoxShadow(
-                color: Colors.white,
-                offset: Offset(-4, -4),
+              BoxShadow(
+                color: Colors.grey.shade800,
+                offset: Offset(-5, -5),
                 blurRadius: 15,
                 spreadRadius: 1,
               ),
