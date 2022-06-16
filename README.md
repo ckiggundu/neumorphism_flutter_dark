@@ -15,7 +15,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd neumorphism_flutter
+  cd neumorphism_flutter_dark
 ```
 
 Install dependencies
